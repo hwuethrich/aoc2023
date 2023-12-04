@@ -1,0 +1,58 @@
+# Day X: Template
+
+```elixir
+Mix.install([
+  {:smaoc, git: "https://github.com/nettinho/smaoc"}
+])
+```
+
+## Part 1
+
+
+
+## Part 2
+
+
+
+## Solution
+
+<!-- livebook:{"attrs":{},"chunks":null,"kind":"Elixir.Smaoc.SmartCell","livebook_object":"smart_cell"} -->
+
+```elixir
+defmodule Smaoc.Solution do
+  defp parse_input(input) do
+    input |> String.split("\n") |> Enum.reject(&(&1 == "")) |> Enum.count()
+  end
+
+  def solve(:part1, input) do
+    parse_input(input)
+  end
+
+  def solve(:part2, input) do
+    parse_input(input)
+  end
+end
+
+year = nil
+day = nil
+run_config = ["part1", "example"]
+inputs = %{"puzzle" => "", "example" => ""}
+
+response =
+  for part <- ["part1", "part2"], input_key <- ["puzzle", "example"] do
+    {part, input_key}
+  end
+
+response =
+  response
+  |> Enum.filter(fn {part, input_key} ->
+    part in run_config and input_key in run_config
+  end)
+  |> Enum.map(fn {part, input_key} ->
+    [part, input_key, Smaoc.Solution.solve(String.to_atom(part), inputs[input_key])]
+  end)
+
+Smaoc.Response.new(%{response: response, run_config: run_config, year: year, day: day})
+```
+
+<!-- livebook:{"offset":1082,"stamp":{"token":"XCP.P6kRrbbxtkxr9lOBQwsFqpD8tApjxSAd_urxVmf3IEv8xf0Uvx6bLJO61g3WuiErC4d16p8SzBegsiz8eCf6yI1I0UfEp0s3hLdeokrcW-pofaDJViA","version":2}} -->
