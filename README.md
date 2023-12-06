@@ -10,3 +10,4 @@ This repository contains my solutions to the 2023 edition of Advent of Code usin
 | Day 3: Gear Ratios                     | [Run in Livebook](https://livebook.dev/run?url=https%3A%2F%2Fgithub.com%2Fhwuethrich%2Faoc2023%2Fblob%2Fmaster%2Fday-03.livemd) |
 | Day 4: Scratchcards                    | [Run in Livebook](https://livebook.dev/run?url=https%3A%2F%2Fgithub.com%2Fhwuethrich%2Faoc2023%2Fblob%2Fmaster%2Fday-04.livemd) |
 | Day 5: If You Give A Seed A Fertilizer | [Run in Livebook](https://livebook.dev/run?url=https%3A%2F%2Fgithub.com%2Fhwuethrich%2Faoc2023%2Fblob%2Fmaster%2Fday-05.livemd) |
+| Day 6: Wait For It                     | [Run in Livebook](https://livebook.dev/run?url=https%3A%2F%2Fgithub.com%2Fhwuethrich%2Faoc2023%2Fblob%2Fmaster%2Fday-06.livemd) |
